@@ -1,6 +1,13 @@
 # Hi there, I'm Shekolla Sai Kiran!
 
 Welcome to my GitHub profile! I am an experienced software engineer with a passion for leveraging technology to enhance financial experiences. With a strong background in building innovative solutions, I have gained valuable expertise in various domains over the course of my career.
+## My Github Stats
+
+![Github Stats 3](https://github-readme-stats.vercel.app/api?username=shekolla)
+
+![Github Stats](https://github-readme-streak-stats.herokuapp.com/?user=shekolla)
+
+![Githu Stats 2](https://github-readme-stats.vercel.app/api/top-langs/?username=shekolla)
 
 ## Experience
 
