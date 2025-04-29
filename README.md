@@ -1,33 +1,52 @@
 # Hi there, I'm Shekolla Sai Kiran!
 
-Welcome to my GitHub profile! I am an experienced software engineer with a passion for leveraging technology to enhance financial experiences. With a strong background in building innovative solutions, I have gained valuable expertise in various domains throughout my career.
+Welcome to my GitHub profile! I'm a passionate Senior Software Engineer specializing in developing robust, scalable systems and leveraging cutting-edge technologies. My career spans across machine learning, infrastructure optimization, systems design, and software engineering.
+
 ## My Github Stats
 
-![Githu Stats 2](https://github-readme-stats.vercel.app/api/top-langs/?username=shekolla)
+![Github Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=shekolla)
 
 ## Experience
 
-### Figg powered by Finoramic
-**Senior Software Engineer** (January 2022 - Present) | **Software Engineer** (June 2019 - January 2022)
+### Dexur
+**Senior Software Engineer** (May 2024 - Present)
+- Optimized Apache Superset dashboards through caching, server-side timeouts, and query optimizations.
+- Enhanced infrastructure performance and security using advanced NGINX configurations (reverse proxy, rate limiting, IP blocking).
+- Deployed secure VPN solutions in AWS VPCs, managing TCP/IP protocols, ingestion pipelines, and archiving data into PostgreSQL and OpenSearch.
+- Led large-scale AWS migrations, refining IAM roles, security group rules, and ensuring seamless transitions between accounts.
+- Implemented PostgreSQL read-replica architecture and built custom ETL processes to significantly reduce latency.
+- Automated critical processes with systemd, cron jobs, AWS Alarms, and developed robust retry mechanisms.
+- Engineered high-performance, event-driven architectures using AWS services (S3, SQS, Lambda, Kafka, Redis) to optimize data loads and enhance page-load performance.
+- Established resilient cross-cluster and cross-region OpenSearch replication for high availability and disaster recovery.
+- Collaborated closely with developers to maintain code quality, adhere to best practices, and ensure timely project delivery.
 
-At Figg, a startup powered by Finoramic, I have been instrumental in creating a comprehensive financial platform aimed at simplifying the lives of users. My contributions include developing a powerful Natural Language Processing (NLP) engine to extract financial data from diverse sources and applying machine learning techniques to improve data accuracy. I have also designed algorithms to process financial PDFs and created a testing framework for the parsing engine. Additionally, I have built interactive dashboards for clients and implemented custom data structures to enhance parsing speed and accuracy. Currently, I am involved in developing an in-house deep learning engine to further increase accuracy and efficiency.
+### Finoramic  
+**Senior Software Engineer** (Jun 2019 - May 2024)
+- Developed an intelligent Finance Chatbot leveraging open-source Large Language Models (LLM) and advanced Entity/Intent Recognition techniques.
+- Built Golang REST API wrappers for seamless client integrations.
+- Created RealTimeGPU, a high-performance parallel GPU system for rapid password processing.
+- Developed comprehensive Insurance & Investment platforms for clear insights into policy details and stock market data.
+- Engineered robust Profile Data Extraction systems for bank statements and innovated PopplerLambda for advanced document processing.
+- Implemented monitoring & analytics solutions to track metrics, user behaviors, and performance trends.
+- Enhanced parser accuracy through refined categorization and transaction confidence mechanisms, integrating deep learning and NER-based solutions.
 
-### Raltin
-**Machine Learning Engineer** (June 2018 - May 2019)
+### Gridlex  
+**Machine Learning Engineer** (Jun 2018 - May 2019)
+- Developed sophisticated financial portfolios based on stock correlation analysis using Pearson and alternative correlation coefficients.
+- Built predictive models leveraging neural networks and comprehensive financial indicators.
+- Contributed to Django front-end development to facilitate portfolio management.
 
-During my time at Raltin, I focused on building financial portfolios using historical correlation between stocks. I successfully utilized the Pearson Coefficient and experimented with various correlation coefficients to construct highly correlated stock portfolios. Additionally, I developed machine learning models leveraging 50+ financial indicators, employing Neural Networks for their implementation. As part of a small team, I also contributed to developing a basic front-end using Django.
-
-### Accenture
-**Software Engineer** (March 2017 - May 2018)
-
-At Accenture, I kickstarted my software engineering career by building an automation engine that allowed clients to collect and scrape data using Python and Beautiful Soup.
+### Accenture  
+**Software Engineer** (Mar 2017 - May 2018)
+- Engineered web automation tools for efficient data scraping using Python and Beautiful Soup.
 
 ## Open Source Contributions and Projects
 
-Feel free to explore my repositories to find projects that interest you. I am always open to collaboration and welcome any feedback or suggestions you may have.
+Feel free to explore my repositories to find projects that interest you. I am always open to collaboration and welcome feedback and suggestions.
 
 ## Get in Touch
 
-If you have any questions, want to collaborate on a project, or simply want to connect, feel free to reach out to me. You can contact me via email at [shekollasaikiran@gmal.com](mailto:shekollasaikiran@gmal.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/shekolla/) and [Twitter](https://twitter.com/ShekollaSai).
+Have questions, suggestions, or interested in collaborating? Reach out to me at [shekollasaikiran@gmal.com](mailto:shekollasaikiran@gmal.com) or connect on [LinkedIn](https://www.linkedin.com/in/shekolla/) and [Twitter](https://twitter.com/ShekollaSai).
 
-Thank you for visiting my GitHub profile. I hope you find my projects and contributions valuable. Enjoy exploring, and have a great day!
+Thanks for visiting my GitHub profile. I hope you find my contributions valuable. Happy exploring!
+
