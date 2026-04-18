@@ -2,7 +2,7 @@
 
 Senior Software Engineer. I build scalable backends, ETL pipelines, and the infra that keeps them fast and cheap. Currently at **Dexur**, working on healthcare data at scale.
 
-[Portfolio](https://shekolla.github.io) · [LinkedIn](https://www.linkedin.com/in/shekolla/) · [Twitter](https://x.com/ShekollaSai) · shekollasaikiran@gmail.com
+[Portfolio](https://shekolla.github.io) · [LinkedIn](https://www.linkedin.com/in/shekolla/) · [X](https://x.com/ShekollaSai) · shekollasaikiran@gmail.com
 
 ## What I do
 
@@ -19,7 +19,7 @@ Senior Software Engineer. I build scalable backends, ETL pipelines, and the infr
 
 ### Dexur — Senior Software Engineer · May 2024 – Present
 Healthcare data platform: analytics, search, and ingestion at scale.
-- Built **Airflow + Docker** ETL pipelines feeding PostgreSQL and OpenSearch — incremental loads, retries, daily reconciliation.
+- Built **Airflow + Docker** pipelines that ingest **clinical data** in many formats — parse, normalize, compute clinical metrics, flag outcomes, index into OpenSearch, and feed downstream Superset dashboards. Retries, alarms, and daily reconciliation throughout.
 - Split reads onto **dedicated PostgreSQL replicas** and denormalized hot data into **OpenSearch** — aggregations dropped from seconds to sub-second.
 - Tuned **Apache Superset** (caching, server-side timeouts, query rewrites) — dashboards usable under real load.
 - Hardened infra with **NGINX** reverse proxy, rate limiting, IP blocking; cleaned up IAM/SG; designed VPN + VPC for client message ingestion.
