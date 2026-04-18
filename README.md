@@ -35,9 +35,9 @@ Personal-finance platform parsing millions of bank statements.
 - **PopplerLambda** — serverless document processing.
 - Insurance + investment modules, profile extraction from bank statements, Golang REST wrappers, testing framework for the parser.
 
-### Gridlex — Machine Learning Engineer · Jun 2018 – May 2019
+### Gridlex — Software Engineer · Jun 2018 – May 2019
 - Correlation-based portfolio construction (Pearson + alternatives) over historical stock data.
-- Neural-net models on 50+ financial indicators.
+- Algorithms for 50+ financial indicators.
 - Django front-end for portfolio management.
 
 ### Accenture — Software Engineer · Mar 2017 – May 2018
