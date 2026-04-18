@@ -1,4 +1,4 @@
-# Hi, I'm Shekolla Sai Kiran
+# Hi, I'm Sai Kiran Shekolla
 
 Senior Software Engineer. I build scalable backends, ETL pipelines, and the infra that keeps them fast and cheap. Currently at **Dexur**, working on healthcare data at scale.
 
