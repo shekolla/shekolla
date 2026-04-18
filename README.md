@@ -1,52 +1,49 @@
-# Hi there, I'm Shekolla Sai Kiran!
+# Hi, I'm Sai Kiran
 
-Welcome to my GitHub profile! I'm a passionate Senior Software Engineer specializing in developing robust, scalable systems and leveraging cutting-edge technologies. My career spans across machine learning, infrastructure optimization, systems design, and software engineering.
+Senior Software Engineer. I build scalable backends, ETL pipelines, and the infra that keeps them fast and cheap. Currently at **Dexur**, working on healthcare data at scale.
 
-## My Github Stats
+[Portfolio](https://shekolla.github.io) · [LinkedIn](https://www.linkedin.com/in/shekolla/) · [Twitter](https://twitter.com/ShekollaSai) · shekollasaikiran@gmail.com
 
-![Github Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=shekolla)
+## What I do
+
+- **Scalable systems** — AWS (S3, SQS, Lambda, Kafka, Redis), PostgreSQL, OpenSearch
+- **ETL & data** — Airflow + Docker pipelines, incremental loads, denormalization
+- **Healthcare data** — claims, providers, outcomes; privacy and accuracy matter
+- **Infra & security** — NGINX tuning, IAM/SG hardening, VPN + VPC, bastion/jumpserver for audited access
+- **Cost-efficient self-hosting** — moved workloads off managed services where the math worked
+- **ML/NLP** — LLMs, NER, document parsing, sentiment
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shekolla&layout=compact)
 
 ## Experience
 
-### Dexur
-**Senior Software Engineer** (May 2024 - Present)
-- Optimized Apache Superset dashboards through caching, server-side timeouts, and query optimizations.
-- Enhanced infrastructure performance and security using advanced NGINX configurations (reverse proxy, rate limiting, IP blocking).
-- Deployed secure VPN solutions in AWS VPCs, managing TCP/IP protocols, ingestion pipelines, and archiving data into PostgreSQL and OpenSearch.
-- Led large-scale AWS migrations, refining IAM roles, security group rules, and ensuring seamless transitions between accounts.
-- Implemented PostgreSQL read-replica architecture and built custom ETL processes to significantly reduce latency.
-- Automated critical processes with systemd, cron jobs, AWS Alarms, and developed robust retry mechanisms.
-- Engineered high-performance, event-driven architectures using AWS services (S3, SQS, Lambda, Kafka, Redis) to optimize data loads and enhance page-load performance.
-- Established resilient cross-cluster and cross-region OpenSearch replication for high availability and disaster recovery.
-- Collaborated closely with developers to maintain code quality, adhere to best practices, and ensure timely project delivery.
+### Dexur — Senior Software Engineer · May 2024 – Present
+Healthcare data platform: analytics, search, and ingestion at scale.
+- Built **Airflow + Docker** ETL pipelines feeding PostgreSQL and OpenSearch — incremental loads, retries, daily reconciliation.
+- Split reads onto **dedicated PostgreSQL replicas** and denormalized hot data into **OpenSearch** — aggregations dropped from seconds to sub-second.
+- Tuned **Apache Superset** (caching, server-side timeouts, query rewrites) — dashboards usable under real load.
+- Hardened infra with **NGINX** reverse proxy, rate limiting, IP blocking; cleaned up IAM/SG; designed VPN + VPC for client message ingestion.
+- Stood up a **bastion/jumpserver-style** access layer for production — every session logged, audit-ready, cost far below managed equivalents.
+- Configured **OpenSearch cross-cluster + cross-region replication** for DR.
+- Event-driven pipelines on **S3, SQS, Lambda, Kafka, Redis**; automated ops with systemd, cron, CloudWatch alarms, daily reports.
 
-### Finoramic  
-**Senior Software Engineer** (Jun 2019 - May 2024)
-- Developed an intelligent Finance Chatbot leveraging open-source Large Language Models (LLM) and advanced Entity/Intent Recognition techniques.
-- Built Golang REST API wrappers for seamless client integrations.
-- Created RealTimeGPU, a high-performance parallel GPU system for rapid password processing.
-- Developed comprehensive Insurance & Investment platforms for clear insights into policy details and stock market data.
-- Engineered robust Profile Data Extraction systems for bank statements and innovated PopplerLambda for advanced document processing.
-- Implemented monitoring & analytics solutions to track metrics, user behaviors, and performance trends.
-- Enhanced parser accuracy through refined categorization and transaction confidence mechanisms, integrating deep learning and NER-based solutions.
+### Finoramic (Figg) — Senior Software Engineer · Jun 2019 – May 2024
+Personal-finance platform parsing millions of bank statements.
+- **Finance chatbot** on open-source LLMs with intent + entity recognition.
+- **In-house NLP engine** for financial PDFs — custom data structures, parser confidence scoring, 90–95% accuracy.
+- **RealTimeGPU** — parallel GPU system for password recovery, order-of-magnitude faster.
+- **PopplerLambda** — serverless document processing.
+- Insurance + investment modules, profile extraction from bank statements, Golang REST wrappers, testing framework for the parser.
 
-### Gridlex  
-**Machine Learning Engineer** (Jun 2018 - May 2019)
-- Developed sophisticated financial portfolios based on stock correlation analysis using Pearson and alternative correlation coefficients.
-- Built predictive models leveraging neural networks and comprehensive financial indicators.
-- Contributed to Django front-end development to facilitate portfolio management.
+### Gridlex — Machine Learning Engineer · Jun 2018 – May 2019
+- Correlation-based portfolio construction (Pearson + alternatives) over historical stock data.
+- Neural-net models on 50+ financial indicators.
+- Django front-end for portfolio management.
 
-### Accenture  
-**Software Engineer** (Mar 2017 - May 2018)
-- Engineered web automation tools for efficient data scraping using Python and Beautiful Soup.
+### Accenture — Software Engineer · Mar 2017 – May 2018
+- Web automation + scraping tools in Python / BeautifulSoup.
 
-## Open Source Contributions and Projects
+## Get in touch
 
-Feel free to explore my repositories to find projects that interest you. I am always open to collaboration and welcome feedback and suggestions.
-
-## Get in Touch
-
-Have questions, suggestions, or interested in collaborating? Reach out to me at [shekollasaikiran@gmal.com](mailto:shekollasaikiran@gmal.com) or connect on [LinkedIn](https://www.linkedin.com/in/shekolla/) and [Twitter](https://twitter.com/ShekollaSai).
-
-Thanks for visiting my GitHub profile. I hope you find my contributions valuable. Happy exploring!
-
+Open to collaboration and interesting problems in healthcare data, infra, or ML.
+[shekollasaikiran@gmail.com](mailto:shekollasaikiran@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shekolla/) · [Twitter](https://twitter.com/ShekollaSai)
