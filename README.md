@@ -47,6 +47,7 @@ Healthcare data platform: analytics, search, and ingestion at scale.
 - Tuned **Apache Superset** (caching, server-side timeouts, query rewrites) — dashboards usable under real load.
 - Hardened infra with **NGINX** reverse proxy, rate limiting, IP blocking; cleaned up IAM/SG; designed VPN + VPC for client message ingestion.
 - Stood up a **bastion/jumpserver-style** access layer for production — every session logged, audit-ready, cost far below managed equivalents.
+- Deployed **self-hosted NetBird VPN** (WireGuard) as a Zero Trust access layer across all internal subdomains — infra dark to the public internet, SSO-gated via Google, per-user access policies, full audit trail; no licensing cost, no third-party SaaS in the data path.
 - Configured **OpenSearch cross-cluster + cross-region replication** for DR.
 - Event-driven pipelines on **S3, SQS, Lambda, Kafka, Redis**; automated ops with systemd, cron, CloudWatch alarms, daily reports.
 
