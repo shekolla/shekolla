@@ -55,11 +55,11 @@ All badges use `style=flat-square` for consistency. The logo names follow [Simpl
 Two cards rendered side-by-side in a centered div. Both embed the GitHub username:
 
 ```
-https://github-readme-stats.vercel.app/api?username=shekolla&show_icons=true&theme=transparent&hide_border=true&count_private=true
-https://github-readme-stats.vercel.app/api/top-langs/?username=shekolla&layout=compact&theme=transparent&hide_border=true
+https://github-readme-stats.vercel.app/api?username=shekolla&show_icons=true&theme=dark&hide_border=true&count_private=true
+https://github-readme-stats.vercel.app/api/top-langs/?username=shekolla&layout=compact&theme=dark&hide_border=true
 ```
 
-`theme=transparent` is intentional — it adapts to both GitHub light and dark mode. If the GitHub handle ever changes, update `username=` in both URLs.
+`theme=dark` is used — `transparent` is not universally supported across vercel.app deployments and causes broken image boxes. If the GitHub handle ever changes, update `username=` in both URLs.
 
 ## Commit Style
 
