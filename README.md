@@ -1,8 +1,17 @@
-# Hi, I'm Sai Kiran Shekolla
+<div align="center">
 
-Senior Software Engineer. I build scalable backends, ETL pipelines, and the infra that keeps them fast and cheap. Currently at **Dexur**, working on healthcare data at scale.
+# Sai Kiran Shekolla
 
-[Portfolio](https://shekolla.github.io) · [LinkedIn](https://www.linkedin.com/in/shekolla/) · [X](https://x.com/ShekollaSai) · shekollasaikiran@gmail.com
+**Senior Software Engineer** · Healthcare data at scale
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=github&logoColor=white)](https://shekolla.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shekolla/)
+[![X](https://img.shields.io/badge/X-000?style=flat-square&logo=x&logoColor=white)](https://x.com/ShekollaSai)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shekollasaikiran@gmail.com)
+
+</div>
+
+---
 
 ## What I do
 
@@ -13,13 +22,27 @@ Senior Software Engineer. I build scalable backends, ETL pipelines, and the infr
 - **Cost-efficient self-hosting** — moved workloads off managed services where the math worked
 - **ML/NLP** — LLMs, NER, document parsing, sentiment
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shekolla&layout=compact)
+**Stack**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
+
+---
 
 ## Experience
 
 ### Dexur — Senior Software Engineer · May 2024 – Present
 Healthcare data platform: analytics, search, and ingestion at scale.
-- Built **Airflow + Docker** pipelines that ingest **clinical data** in many formats — parse, normalize, compute clinical metrics, flag outcomes, index into OpenSearch, and feed downstream Superset dashboards. Retries, alarms, and daily reconciliation throughout.
+- Built **Airflow + Docker** pipelines that ingest clinical data in many formats — parse, normalize, compute clinical metrics, flag outcomes, index into OpenSearch, and feed downstream Superset dashboards. Retries, alarms, and daily reconciliation throughout.
 - Split reads onto **dedicated PostgreSQL replicas** and denormalized hot data into **OpenSearch** — aggregations dropped from seconds to sub-second.
 - Tuned **Apache Superset** (caching, server-side timeouts, query rewrites) — dashboards usable under real load.
 - Hardened infra with **NGINX** reverse proxy, rate limiting, IP blocking; cleaned up IAM/SG; designed VPN + VPC for client message ingestion.
@@ -43,7 +66,19 @@ Personal-finance platform parsing millions of bank statements.
 ### Accenture — Software Engineer · Mar 2017 – May 2018
 - Web automation + scraping tools in Python / BeautifulSoup.
 
+---
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=shekolla&show_icons=true&theme=transparent&hide_border=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shekolla&layout=compact&theme=transparent&hide_border=true" />
+
+</div>
+
+---
+
 ## Get in touch
 
 Open to collaboration and interesting problems in healthcare data, infra, or ML.
+
 [shekollasaikiran@gmail.com](mailto:shekollasaikiran@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shekolla/) · [Twitter](https://twitter.com/ShekollaSai)
