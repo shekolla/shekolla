@@ -18,7 +18,7 @@
 ## What I do
 
 - **Distributed systems & architecture** — cross-region replication, event-driven pipelines, partitioned reads, DR design
-- **ETL & data pipelines** — Airflow + Docker, multi-format ingestion, incremental loads, denormalization, reconciliation at scale
+- **ETL & data pipelines** — healthcare interoperability formats (837, 835, ADT HL7 v2), Airflow + Docker, incremental loads, denormalization, reconciliation at scale
 - **Backend systems** — high-throughput APIs and services on AWS (S3, SQS, Lambda, Kafka, Redis), PostgreSQL, OpenSearch
 - **Infra & security** — NGINX tuning, IAM/SG hardening, VPN + VPC, bastion/jumpserver access layers; cost-efficient self-hosting
 - **Healthcare data** — clinical and claims data across CMS Star Ratings, VBP, HRRP, HCAHPS, readmissions, HAI; privacy and accuracy as hard constraints
@@ -51,7 +51,7 @@
 
 ### Dexur — Senior Software Engineer · May 2024 – Present
 Healthcare data platform: analytics, search, and ingestion at scale.
-- Built **Airflow + Docker** pipelines ingesting **millions of clinical records** across **150+ healthcare organizations** — parse, normalize, apply **trillions of computations** to score readmissions, mortality, and HAI outcomes for **CMS Star Ratings, VBP, HRRP, HCAHPS, and Leapfrog**; supply processed data to downstream denials and revenue cycle teams; index into OpenSearch and feed Superset dashboards. Retries, alarms, and daily reconciliation throughout.
+- Built the **healthcare data parsing layer** for **837 claims, 835 remittance, and ADT HL7 v2** formats across **150+ organizations** — normalize and transform **millions of clinical records**, apply **trillions of computations** to score readmissions, mortality, and HAI outcomes for **CMS Star Ratings, VBP, HRRP, HCAHPS, and Leapfrog**; index into OpenSearch and supply downstream denials and revenue cycle teams. Retries, alarms, and daily reconciliation throughout.
 - Split reads onto **dedicated PostgreSQL replicas** and denormalized hot data into **OpenSearch** — aggregations dropped from seconds to sub-second.
 - Tuned **Apache Superset** (caching, server-side timeouts, query rewrites) — dashboards usable under real load.
 - Hardened infra with **NGINX** reverse proxy, rate limiting, IP blocking; cleaned up IAM/SG; designed VPN + VPC for client message ingestion.
