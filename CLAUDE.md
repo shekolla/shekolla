@@ -8,13 +8,12 @@ This is a GitHub profile repository — `README.md` is the only file and renders
 
 ## README Structure
 
-Five sections in fixed order:
+Four sections in fixed order:
 
 1. **Header** — centered `<div>` block containing: `# Sai Kiran Shekolla`, bold title line, four `shields.io` link badges (Portfolio, LinkedIn, X, Email)
 2. **What I do** — 6 domain bullets, then a `**Stack**` line followed by 11 `shields.io` tech badges
 3. **Experience** — 4 roles in reverse-chronological order: Dexur → Finoramic (Figg) → Gridlex → Accenture
-4. **GitHub Stats** — centered `<div>` with two side-by-side cards (main stats + top-langs)
-5. **Get in touch** — plain text + email/LinkedIn/Twitter links
+4. **Get in touch** — plain text + email/LinkedIn/Twitter links
 
 `---` horizontal rules separate every section.
 
@@ -34,7 +33,7 @@ Some details appear in multiple places — update all occurrences together:
 | Email (`shekollasaikiran@gmail.com`) | Header badge `href` + "Get in touch" link |
 | LinkedIn (`/in/shekolla/`) | Header badge `href` + "Get in touch" link |
 | Twitter/X (`@ShekollaSai`) | Header badge uses `x.com`; "Get in touch" uses `twitter.com` — both need updating |
-| GitHub username (`shekolla`) | Header badge for Portfolio + both stats card URLs (see below) |
+| GitHub username (`shekolla`) | Header badge for Portfolio href |
 
 ## Badge Patterns
 
@@ -49,17 +48,6 @@ Some details appear in multiple places — update all occurrences together:
 ```
 
 All badges use `style=flat-square` for consistency. The logo names follow [Simple Icons](https://simpleicons.org/) slugs (e.g. `apachekafka`, `apacheairflow`, `amazonaws`).
-
-## GitHub Stats Cards
-
-Two cards rendered side-by-side in a centered div. Both embed the GitHub username:
-
-```
-https://github-readme-stats.vercel.app/api?username=shekolla&show_icons=true&theme=dark&hide_border=true&count_private=true
-https://github-readme-stats.vercel.app/api/top-langs/?username=shekolla&layout=compact&theme=dark&hide_border=true
-```
-
-`theme=dark` is used — `transparent` is not universally supported across vercel.app deployments and causes broken image boxes. If the GitHub handle ever changes, update `username=` in both URLs.
 
 ## Commit Style
 
