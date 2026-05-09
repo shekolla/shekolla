@@ -2,7 +2,9 @@
 
 # Sai Kiran Shekolla
 
-**Senior Software Engineer** · Healthcare data at scale
+**Senior Software Engineer** · Backend · ETL Pipelines · Distributed Systems
+
+9+ years building distributed backend systems, data pipelines, and the infra that keeps them fast and cheap.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=github&logoColor=white)](https://shekolla.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shekolla/)
@@ -15,26 +17,24 @@
 
 ## What I do
 
-- **Scalable systems** — AWS (S3, SQS, Lambda, Kafka, Redis), PostgreSQL, OpenSearch
-- **ETL & data** — Airflow + Docker pipelines, incremental loads, denormalization
-- **Healthcare data** — claims, providers, outcomes; privacy and accuracy matter
-- **Infra & security** — NGINX tuning, IAM/SG hardening, VPN + VPC, bastion/jumpserver for audited access
-- **Cost-efficient self-hosting** — moved workloads off managed services where the math worked
+- **Distributed systems & architecture** — cross-region replication, event-driven pipelines, partitioned reads, DR design
+- **ETL & data pipelines** — Airflow + Docker, multi-format ingestion, incremental loads, denormalization, reconciliation at scale
+- **Backend systems** — high-throughput APIs and services on AWS (S3, SQS, Lambda, Kafka, Redis), PostgreSQL, OpenSearch
+- **Infra & security** — NGINX tuning, IAM/SG hardening, VPN + VPC, bastion/jumpserver access layers; cost-efficient self-hosting
+- **Healthcare data** — claims, providers, outcomes at scale; privacy and accuracy as hard constraints
 - **ML/NLP** — LLMs, NER, document parsing, sentiment
 
-**Stack**
+---
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white)
-![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
+## Stack
+
+**Languages & Frameworks** — ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+
+**Data & ETL** — ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**Storage** — ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
+
+**Cloud & Infra** — ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white)
 
 ---
 
@@ -70,6 +70,6 @@ Personal-finance platform parsing millions of bank statements.
 
 ## Get in touch
 
-Open to collaboration and interesting problems in healthcare data, infra, or ML.
+Open to collaboration and interesting problems in distributed systems, data infra, or ML.
 
 [shekollasaikiran@gmail.com](mailto:shekollasaikiran@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shekolla/) · [Twitter](https://twitter.com/ShekollaSai)

@@ -8,12 +8,13 @@ This is a GitHub profile repository — `README.md` is the only file and renders
 
 ## README Structure
 
-Four sections in fixed order:
+Five sections in fixed order:
 
-1. **Header** — centered `<div>` block containing: `# Sai Kiran Shekolla`, bold title line, four `shields.io` link badges (Portfolio, LinkedIn, X, Email)
-2. **What I do** — 6 domain bullets, then a `**Stack**` line followed by 11 `shields.io` tech badges
-3. **Experience** — 4 roles in reverse-chronological order: Dexur → Finoramic (Figg) → Gridlex → Accenture
-4. **Get in touch** — plain text + email/LinkedIn/Twitter links
+1. **Header** — centered `<div>` with name, tagline (`Backend · ETL Pipelines · Distributed Systems`), one-liner positioning hook, and four `shields.io` link badges
+2. **What I do** — 6 bullets ordered by theme priority: distributed systems → ETL → backend → infra → healthcare → ML/NLP
+3. **Stack** — 4 categorised badge rows: Languages & Frameworks / Data & ETL / Storage / Cloud & Infra
+4. **Experience** — 4 roles in reverse-chronological order: Dexur → Finoramic (Figg) → Gridlex → Accenture
+5. **Get in touch** — plain text + email/LinkedIn/Twitter links
 
 `---` horizontal rules separate every section.
 
