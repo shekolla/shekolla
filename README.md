@@ -22,7 +22,7 @@
 - **Backend systems** — high-throughput APIs and services on AWS (S3, SQS, Lambda, Kafka, Redis), PostgreSQL, OpenSearch
 - **Infra & security** — NGINX tuning, IAM/SG hardening, VPN + VPC, bastion/jumpserver access layers; cost-efficient self-hosting
 - **Healthcare data** — claims, providers, outcomes at scale; privacy and accuracy as hard constraints
-- **ML/NLP** — LLMs, NER, document parsing, sentiment
+- **ML/NLP** — applied where it fits: LLMs, NER, document parsing, sentiment; not the core focus
 
 ---
 
@@ -38,11 +38,20 @@
 
 ---
 
+## Projects
+
+- **[Daypage](https://github.com/shekolla/daypage)** — Self-hosted daily standup tracker; multi-team priorities, sub-tasks, due dates, Google Chat webhooks. React · Express · SQLite · Docker
+- **[Prepfast](https://github.com/shekolla/prepfast)** — High-signal interview prep for mid-to-senior engineers; revise any tech topic in under 1 hour. TypeScript
+- **[FinBERT Sentiment](https://github.com/shekolla/finbert-financial-sentiment)** — Financial sentiment analysis on earnings calls and news using FinBERT. Python · NLP
+- **[Poppler ARM64 Lambda](https://github.com/shekolla/poppler_for_arm64_aws_lambda)** — Drop-in Poppler binary layer for arm64 AWS Lambda; serverless PDF processing. Docker · AWS
+
+---
+
 ## Experience
 
 ### Dexur — Senior Software Engineer · May 2024 – Present
 Healthcare data platform: analytics, search, and ingestion at scale.
-- Built **Airflow + Docker** pipelines that ingest clinical data in many formats — parse, normalize, compute clinical metrics, flag outcomes, index into OpenSearch, and feed downstream Superset dashboards. Retries, alarms, and daily reconciliation throughout.
+- Built **Airflow + Docker** pipelines ingesting **millions of clinical records** — parse, normalize, apply **trillions of computations** to calculate measure accuracy, flag readmissions and outcomes, index into OpenSearch, and feed downstream Superset dashboards. Retries, alarms, and daily reconciliation throughout.
 - Split reads onto **dedicated PostgreSQL replicas** and denormalized hot data into **OpenSearch** — aggregations dropped from seconds to sub-second.
 - Tuned **Apache Superset** (caching, server-side timeouts, query rewrites) — dashboards usable under real load.
 - Hardened infra with **NGINX** reverse proxy, rate limiting, IP blocking; cleaned up IAM/SG; designed VPN + VPC for client message ingestion.
@@ -69,8 +78,14 @@ Personal-finance platform parsing millions of bank statements.
 
 ---
 
+## Education
+
+BTech in Electrical & Electronics Engineering
+
+---
+
 ## Get in touch
 
-Open to collaboration and interesting problems in distributed systems, data infra, or ML.
+Open to collaboration and interesting problems in distributed systems, data infra, or backend engineering.
 
 [shekollasaikiran@gmail.com](mailto:shekollasaikiran@gmail.com) · [LinkedIn](https://www.linkedin.com/in/shekolla/) · [Twitter](https://twitter.com/ShekollaSai)
